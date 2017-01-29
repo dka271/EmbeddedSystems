@@ -58,6 +58,10 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include <stdlib.h>
 #include "system_config.h"
 #include "system_definitions.h"
+#include "system/system.h"
+#include "system/clk/sys_clk.h"
+#include "driver/usart/drv_usart.h"
+#include "system/devcon/sys_devcon.h"
 #include "debug.h"
 
 // DOM-IGNORE-BEGIN

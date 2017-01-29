@@ -33,8 +33,13 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include "system_config.h"
 #include "system_definitions.h"
+#include "system/system.h"
+#include "system/clk/sys_clk.h"
+#include "driver/usart/drv_usart.h"
+#include "system/devcon/sys_devcon.h"
 #include "peripheral/peripheral.h"
 
 

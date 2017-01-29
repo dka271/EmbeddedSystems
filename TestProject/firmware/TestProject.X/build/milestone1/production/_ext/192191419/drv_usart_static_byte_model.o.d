@@ -1,7 +1,6 @@
-build/milestone1/production/_ext/1360937237/debug.o:  \
-../src/debug.c  \
- ../src/debug.h  \
-../src/system_config/milestone1/system_config.h  \
+build/milestone1/production/_ext/192191419/drv_usart_static_byte_model.o:  \
+ ../src/system_config/milestone1/framework/driver/usart/src/drv_usart_static_byte_model.c  \
+ ../src/system_config/milestone1/system_config.h  \
  ../src/system_config/milestone1/system_definitions.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/system/common/sys_common.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/system/common/sys_module.h  \
@@ -262,6 +261,7 @@ build/milestone1/production/_ext/1360937237/debug.o:  \
  ../../../../../../../microchip/harmony/v1_09/framework/system/msg/sys_msg.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/system/msg/config/sys_msg_config.h  \
  ../src/app.h  \
+../src/debug.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/peripheral/peripheral.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/peripheral/adc/plib_adc.h  \
  ../../../../../../../microchip/harmony/v1_09/framework/peripheral/adc/processor/adc_processor.h  \

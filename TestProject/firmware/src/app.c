@@ -152,16 +152,24 @@ void APP_Tasks ( void )
             {
             
                 appData.state = APP_STATE_SERVICE_TASKS;
-                
-                while(1){
-                    
-                }
             }
             break;
         }
 
         case APP_STATE_SERVICE_TASKS:
         {
+                
+                while(1){
+                    dbgUARTVal(0x54);
+                    dbgUARTVal(0x65);
+                    dbgUARTVal(0x61);
+                    dbgUARTVal(0x6D);
+                    dbgUARTVal(0x20);
+                    dbgUARTVal(0x37);
+                    dbgUARTVal(0x0A);
+                    dbgUARTVal(0x0D);
+                    
+                }
         
             break;
         }

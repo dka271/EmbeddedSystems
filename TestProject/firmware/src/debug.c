@@ -72,9 +72,11 @@ int global_data;
     }
     
     void dbgUARTVal(unsigned char outVal){
-        /*if(!(DRV_USART_TRANSFER_STATUS_TRANSMIT_FULL & DRV_USART0_TransferStatus()) ){
+        //if(!(DRV_USART_TRANSFER_STATUS_TRANSMIT_FULL & DRV_USART0_TransferStatus()) ){
             DRV_USART0_WriteByte (outVal);
-        }*/
+        //}else{
+        //    printf("hi");
+        //}
     }
     
     void dbgOutputLoc(unsigned char outVal){

@@ -25,6 +25,10 @@
         <Path>Header Files/FreeRTOS</Path>
       </File>
       <File>
+        <Name>driver_common.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
         <Name>queue.h</Name>
         <Path>Header Files/FreeRTOS</Path>
       </File>
@@ -47,6 +51,10 @@
       <File>
         <Name>list.h</Name>
         <Path>Header Files/FreeRTOS</Path>
+      </File>
+      <File>
+        <Name>driver.h</Name>
+        <Path>Header Files/framework/driver</Path>
       </File>
       <File>
         <Name>peripheral_common.h</Name>
@@ -251,6 +259,11 @@
     </Files>
     <Templates>
       <Template>
+        <Name>drv_usart_static_byte_model.c</Name>
+        <Path>Source Files/app/system_config/milestone1/framework/driver/usart/src</Path>
+        <Checksum>29B92242D5EBC5F0D949EAC1AD786CA3</Checksum>
+      </Template>
+      <Template>
         <Name>sys_clk_static.c</Name>
         <Path>Source Files/app/system_config/milestone1/framework/system/clk/src</Path>
         <Checksum>E8C935BED4628875A8C3428DDD07355C</Checksum>
@@ -267,7 +280,7 @@
       <Template>
         <Name>system_init.c</Name>
         <Path>Source Files/app/system_config/milestone1</Path>
-        <Checksum>290381BC6887BB9B80FAD5AC61E32C93</Checksum>
+        <Checksum>68479E82827CAFFEBA6E293D87D26E06</Checksum>
       </Template>
       <Template>
         <Name>FreeRTOSConfig.h</Name>
@@ -277,6 +290,11 @@
       <Template>
         <Name>app.c</Name>
         <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>drv_usart_mapping.c</Name>
+        <Path>Source Files/app/system_config/milestone1/framework/driver/usart/src</Path>
+        <Checksum>99B1234D6368258201525EBAE6D7FADE</Checksum>
       </Template>
       <Template>
         <Name>system_interrupt.c</Name>
@@ -292,7 +310,7 @@
       <Template>
         <Name>system_definitions.h</Name>
         <Path>Header Files/app/system_config/milestone1</Path>
-        <Checksum>346F2AA5CB98FF4CFFAD72376DE890D4</Checksum>
+        <Checksum>1899EE24B3247E7A82146C06E950D463</Checksum>
       </Template>
       <Template>
         <Name>system_exceptions.c</Name>
@@ -305,6 +323,11 @@
         <Checksum>B6CBE423647A8929F1046AB6F68B1BD1</Checksum>
       </Template>
       <Template>
+        <Name>drv_usart_static.c</Name>
+        <Path>Source Files/app/system_config/milestone1/framework/driver/usart/src</Path>
+        <Checksum>AB0CBF1860CBCBA07981370C72AEDA34</Checksum>
+      </Template>
+      <Template>
         <Name>sys_ports_static.c</Name>
         <Path>Source Files/app/system_config/milestone1/framework/system/ports/src</Path>
         <Checksum>95DFDD1603FE4DED042B76A806DFF3A5</Checksum>
@@ -312,12 +335,12 @@
       <Template>
         <Name>system_config.h</Name>
         <Path>Header Files/app/system_config/milestone1</Path>
-        <Checksum>137233B0E61D26EB4521CCCB48A05164</Checksum>
+        <Checksum>7E98419F7E0341B27FDDCC6D09C3E84A</Checksum>
       </Template>
       <Template>
         <Name>system_tasks.c</Name>
         <Path>Source Files/app/system_config/milestone1</Path>
-        <Checksum>4A7DBBA38E94DB991D08AF61020357A0</Checksum>
+        <Checksum>A485E37FF79C01217D234BF896379E44</Checksum>
       </Template>
       <Template>
         <Name>rtos_hooks.c</Name>
@@ -334,9 +357,19 @@
         <Path>Header Files/app</Path>
       </Template>
       <Template>
+        <Name>drv_usart_static.h</Name>
+        <Path>Header Files/app/system_config/milestone1/framework/driver/usart</Path>
+        <Checksum>AE37BD63B6EC9F6ADD6B8006CE192FCB</Checksum>
+      </Template>
+      <Template>
         <Name>drv_tmr_static.c</Name>
         <Path>Source Files/app/system_config/milestone1/framework/driver/tmr/src</Path>
         <Checksum>389571FD783C494EB86E657981CB8BD7</Checksum>
+      </Template>
+      <Template>
+        <Name>drv_usart_static_local.h</Name>
+        <Path>Header Files/app/system_config/milestone1/framework/driver/usart/src</Path>
+        <Checksum>2C3E6EE85E05512BB9836B81EB3DB0E4</Checksum>
       </Template>
     </Templates>
     <CompilerItems>

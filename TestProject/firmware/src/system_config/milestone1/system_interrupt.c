@@ -75,32 +75,32 @@ void IntHandlerDrvTmrInstance0(void)
 {
     if (app1Iter == 0){
         dbgOutputVal(0x54);
-        dbgUARTVal(0x54);
+        //dbgUARTVal(0x54);
         dbgOutputLoc(0x54);
         app1Iter++;
     } else if (app1Iter == 1){
         dbgOutputVal(0x65);
-        dbgUARTVal(0x65);
+        //dbgUARTVal(0x65);
         dbgOutputLoc(0x65);
         app1Iter++;
     } else if (app1Iter == 2){
         dbgOutputVal(0x61);
-        dbgUARTVal(0x61);
+        //dbgUARTVal(0x61);
         dbgOutputLoc(0x61);
         app1Iter++;
     } else if (app1Iter == 3){
         dbgOutputVal(0x6D);
-        dbgUARTVal(0x6D);
+        //dbgUARTVal(0x6D);
         dbgOutputLoc(0x6D);
         app1Iter++;
     } else if (app1Iter == 4){
         dbgOutputVal(0x20);
-        dbgUARTVal(0x20);
+        //dbgUARTVal(0x20);
         dbgOutputLoc(0x20);
         app1Iter++;
     } else {
         dbgOutputVal(0x37);
-        dbgUARTVal(0x37);
+        //dbgUARTVal(0x37);
         dbgOutputLoc(0x37);
         app1Iter = 0;
     }
